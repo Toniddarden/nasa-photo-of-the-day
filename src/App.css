@@ -4,6 +4,11 @@
   text-align: center;
 }
 
+img {
+
+  width: 400px;
+}
+
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
   height: 40vmin;
