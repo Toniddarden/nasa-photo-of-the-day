@@ -1,52 +1,7 @@
-body {
-  background-image: url(./moon.jpg);
-  background-repeat: no-repeat;
-  background-size: 1400px;
-}
 
-#root {
-  width: 100vw;
-  height: 100vh;
-  margin: 0;
-}
-
-.aotd-list {
-  background: #bcc8c1;
-  height: auto;
-  border-radius: 4px;
-  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
-}
-
-.aotd {
-  display: grid;
-  grid-gap: 10px;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  margin: 20px 1rem;
-}
 
 .App {
   text-align: center;
-  
-  background-color: rgb(167, 182, 182);
-}
-
-p {
-  font-size: 50px;
-}
-
-h1 {
-  color: #5d5857;
-  font-size: 50px;
-  text-align: center;
-  margin: 0;
-}
-
-h2 {
-  color: #705343;
-  font-size: 25px;
-  background: #2eb29a;
-  margin: 0;
-  padding: 10px;
 }
 
 .App-logo {
@@ -68,6 +23,22 @@ h2 {
 
 .App-link {
   color: #61dafb;
+}
+
+h1 {
+  color: wheat;
+}
+
+h2 {
+  color: rgb(238, 204, 141);
+}
+
+h3 {
+  color: rgb(252, 208, 127);
+}
+
+p {
+  color: white;
 }
 
 @keyframes App-logo-spin {
