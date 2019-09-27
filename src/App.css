@@ -30,7 +30,7 @@ img {
   color: #61dafb;
 }
 
-h1 {
+/* h1 {
   color: wheat;
 }
 
@@ -44,7 +44,16 @@ h3 {
 
 p {
   color: white;
+} */
+
+button {
+  
+  background: #1c1d25;
+  color: rgb(238, 226, 226);
+  margin: 5px 0;
+  padding: 2px;
 }
+
 
 @keyframes App-logo-spin {
   from {
