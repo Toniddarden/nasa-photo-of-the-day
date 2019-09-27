@@ -1,20 +1,13 @@
 import React, { useState, useEffect } from "react";
 
 
-const Data = (props) => {
-    // const [spaceContent, setSpaceContent] = useState('');
 
-    // useEffect(() => {
-    //     Axios.get(`https://api.nasa.gov/planetary/apod?api_key=vWXqbHXX0GUda5vXpWNFne66KmvhapEIZ4quBnfW`)
-    //     .then(res => {
-    //         const spaceContent = res.data.explanation
-    //         setSpaceContent(spaceContent);
-    //     })
-    // }, [spaceContent])
+const Data = (props) => {
+
 
     return (
         <div>
-            <p>{props.explanation}</p>
+            <p className='explanation'>{props.explanation}</p>
         </div>
     )
 

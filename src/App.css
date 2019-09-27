@@ -1,11 +1,8 @@
-
-
 .App {
   text-align: center;
 }
 
 img {
-
   width: 400px;
 }
 
@@ -47,13 +44,25 @@ p {
 } */
 
 button {
-  
   background: #1c1d25;
   color: rgb(238, 226, 226);
-  margin: 5px 0;
   padding: 2px;
 }
+button :hover {
+  background: #1c1d25;
+  color: pink;
+}
 
+.explanation {
+  background: #000000;
+}
+
+
+.title {
+  color: rgb(250, 207, 214);
+  font-family: 'Notable', sans-serif;
+  font-size: 50px;
+}
 
 @keyframes App-logo-spin {
   from {
