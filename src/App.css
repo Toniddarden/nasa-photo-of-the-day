@@ -6,6 +6,7 @@
 
 img {
   width: 400px;
+  padding-bottom: 10px;
  
 }
 
@@ -63,10 +64,11 @@ button :hover {
   
   color: white;
   padding: 20px;
-  
-  
 }
 
+.copyright {
+  font-size: 13px;
+}
 
 .title {
   color: rgb(250, 207, 214);
