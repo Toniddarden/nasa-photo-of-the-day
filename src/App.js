@@ -4,7 +4,7 @@ import Title from "./Components.js/Title"; // <h1> Atsronaunt of the day </h1>
 import Header from "./Components.js/Header"; // json data:  Title and Date
 import Data from "./Components.js/Data"; // jsona data: explanation
 import Image from "./Components.js/Image"; // json data: image url
-import Button from "./Components.js/Button";
+// import Button from "./Components.js/Button";
 // import { Button } from 'reactstrap';
 import styled from "styled-components";
 // import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -41,7 +41,7 @@ function App() {
   <Container className="App">
       <Title />
       <Header date={nasaData.date} title={nasaData.title} />
-      <Button />
+      {/* <Button /> */}
       <Data explanation={nasaData.explanation}/>
       <Image photo={nasaData.url} />
     </Container>

@@ -1,32 +1,41 @@
-import React from 'react';
+import React, { useState, useEffect } from "react";
 import styled from "styled-components";
-// export default function Card(props) {
-//     return (
-//         <div className="aotd-list" key={props.id}>
-//       <h1>Today's Photo: {props.title}</h1>
-//       <p>{props.date}</p>
-//       <p>{props.explanation}</p>
-//       <h2>{props.image}</h2>
-//     </div>
-//     );
-// }
+import Axios from 'axios';
 
-const randomDateButton = styled.button`
-width: 100px;
-height: 30px;
-color: pink;
-border: 0;
-margin: 5px 10px;
+const RandomDateButton = styled.button`
+  width: 100px;
+  height: 50px;
+  color: pink;
+  border: 1px dotted white;
+  margin: 5px 10px;
 `;
 
-const Button = (props) => {
-  
+const Button = props => {
+  // return (
+  //   <div>
+  //     <RandomDateButton>Random Date</RandomDateButton>
+  //   </div>
+  // );
 
-return (
-    <button>
-        <randomDateButton>Click For A Random Date {props.data}</randomDateButton>
-      </button>
-)
-}
+
+  //  const [apod, setApod] = useState([]);
+
+
+
+  //   useEffect(() => {
+  //       Axios.get(`https://api.nasa.gov/planetary/apod?api_key=vWXqbHXX0GUda5vXpWNFne66KmvhapEIZ4quBnfW`)
+  //       .then(res => {
+  //           const apod = res.data.apod
+  //           setApod(apod);
+  //       })
+  //   }, [apod])
+
+    return (
+      <div>
+ <RandomDateButton>Random Date</RandomDateButton>
+      </div>
+      
+  )
+};
 
 export default Button;

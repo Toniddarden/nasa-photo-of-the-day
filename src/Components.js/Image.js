@@ -1,4 +1,7 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
+import styled from 'styled-components';
+
+
 
 
 
@@ -15,11 +18,16 @@ const Image = (props) => {
     //     })
     // }, [photo])
 
+
+    const SpacePhoto = styled.div`
+    border: 1px bold white;
+  `;
+
     return (
-        <div>
+        <SpacePhoto>
             <img src={props.photo} alt="Space photo of the day"></img>
             {/* <button>Previous photo</button> */}
-        </div>
+        </SpacePhoto>
         
     )
 

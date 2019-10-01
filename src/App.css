@@ -1,9 +1,12 @@
 .App {
   text-align: center;
+  background-image: url(./nightgate.jpg);
+ 
 }
 
 img {
   width: 400px;
+ 
 }
 
 .App-logo {
@@ -13,7 +16,6 @@ img {
 }
 
 .App-header {
-  background-color: #282c34;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -25,6 +27,10 @@ img {
 
 .App-link {
   color: #61dafb;
+}
+
+h3 {
+  color: pink;
 }
 
 /* h1 {
@@ -54,7 +60,11 @@ button :hover {
 }
 
 .explanation {
-  background: #000000;
+  
+  color: white;
+  padding: 20px;
+  
+  
 }
 
 

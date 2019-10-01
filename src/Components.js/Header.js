@@ -7,7 +7,7 @@ import styled from "styled-components";
 
 
 const Header = (props) => {
-  const headerStyles = styled.h2`
+  const HeaderStyles = styled.h2`
   text-align: center;
   width: 100%;
   font-family: "Dancing Script";
@@ -16,7 +16,7 @@ const Header = (props) => {
   
   return (
     <div>
-      <headerStyles>Today's Date: {props.date}</headerStyles>
+      <HeaderStyles>Today's Date: {props.date}</HeaderStyles>
       <h3>Title: {props.title}</h3>
     </div>
   );
