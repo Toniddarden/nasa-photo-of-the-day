@@ -1,5 +1,13 @@
 .App {
   text-align: center;
+  background-image: url(./nightgate.jpg);
+ 
+}
+
+img {
+  width: 400px;
+  padding-bottom: 10px;
+ 
 }
 
 .App-logo {
@@ -9,7 +17,6 @@
 }
 
 .App-header {
-  background-color: #282c34;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -21,6 +28,52 @@
 
 .App-link {
   color: #61dafb;
+}
+
+h3 {
+  color: pink;
+}
+
+/* h1 {
+  color: wheat;
+}
+
+h2 {
+  color: rgb(238, 204, 141);
+}
+
+h3 {
+  color: rgb(252, 208, 127);
+}
+
+p {
+  color: white;
+} */
+
+button {
+  background: #1c1d25;
+  color: rgb(238, 226, 226);
+  padding: 2px;
+}
+button :hover {
+  background: #1c1d25;
+  color: pink;
+}
+
+.explanation {
+  
+  color: white;
+  padding: 20px;
+}
+
+.copyright {
+  font-size: 13px;
+}
+
+.title {
+  color: rgb(250, 207, 214);
+  font-family: 'Notable', sans-serif;
+  font-size: 50px;
 }
 
 @keyframes App-logo-spin {
